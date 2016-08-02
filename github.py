@@ -57,19 +57,8 @@ def write_to_excel(workbook,worksheet,data):
             col = col + 1
             worksheet.write(row,col,'Url',border_bold_grey)
             
-           
-
-
-           
-        
-
             row = row + 1
             i = 0
-
-
-            """{'City': u' HOMER', 'Store Name': u' TECH CONNECT, INC', 
-            'Zip Code': u' 99603', 'Street Adress': u' 432 EAST PIONEER AVE #C', 
-            'State': u' AK', 'Store Number': u'2766977'}"""
 
             for output in data:
                     
